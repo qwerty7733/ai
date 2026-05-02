@@ -8,6 +8,21 @@
 # CO Mapping     : C318.1
 # Time Complexity: O(V + E)  |  Space Complexity: O(V)
 # ============================================================
+"""sample i/p
+Enter number of vertices: 6
+Enter number of edges   : 7
+Enter each edge as  u v  (0-indexed, space-separated):
+0 1
+0 2
+1 3
+1 4
+2 4
+3 5
+4 5
+
+Start node for traversal: 0
+
+Node to search for: 5"""
 
 from collections import defaultdict, deque
 
