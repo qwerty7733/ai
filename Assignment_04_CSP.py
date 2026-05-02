@@ -10,6 +10,18 @@
 # ═══════════════════════════════════════════════
 #  PART A — GRAPH COLORING
 # ═══════════════════════════════════════════════
+"""sample i/p
+Select (1/2): 1
+
+Number of vertices: 5
+Number of edges   : 6
+Enter each edge as  u v  (0-indexed):
+0 1
+0 2
+1 2
+1 3
+2 4
+3 4"""
 
 def safe_color(graph, color, v, c, n):
     for u in range(n):
