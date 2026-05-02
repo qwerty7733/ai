@@ -8,6 +8,53 @@
 # Subject        : Lab Practice II (310258) - AI | PCCOER
 # CO Mapping     : C318.1
 # ============================================================
+""" sample i/p
+Select (1–4): 1
+
+Number of vertices: 5
+Number of edges   : 7
+Edges as  u v weight:
+0 1 2
+0 3 6
+1 2 3
+1 3 1
+2 4 5
+3 4 4
+1 4 9
+
+Source vertex: 0
+
+Select (1–4): 2
+
+Number of vertices: 5
+Number of edges   : 7
+Edges as  u v weight:
+0 1 2
+0 3 6
+1 2 3
+1 3 1
+2 4 5
+3 4 4
+1 4 9
+
+Select (1–4): 3
+
+Number of vertices: 5
+Number of edges   : 7
+Edges as  u v weight:
+0 1 2
+0 3 6
+1 2 3
+1 3 1
+2 4 5
+3 4 4
+1 4 9
+
+Select (1–4): 4
+
+Enter array elements (space-separated): 64 25 12 22 11"""
+
+
 
 import heapq
 
