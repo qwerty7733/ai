@@ -21,7 +21,12 @@ Enter each edge as  u v  (0-indexed):
 1 2
 1 3
 2 4
-3 4"""
+3 4
+
+Select (1/2): 2
+
+Enter N (board size, e.g. 4 or 8): 4
+Display how many? (1–5): 2"""
 
 def safe_color(graph, color, v, c, n):
     for u in range(n):
