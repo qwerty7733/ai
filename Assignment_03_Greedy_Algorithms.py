@@ -59,3 +59,54 @@ if __name__ == "__main__":
 
     edges = [(2,0,1),(6,0,3),(3,1,2),(1,1,3),(5,2,4),(4,3,4),(9,1,4)]
     kruskal(5, edges)
+
+
+
+
+"""Selection Sort:
+1. Start from index 0
+2. Find minimum element in remaining array
+3. Swap it with current index
+4. Move to next index
+5. Repeat until array is sorted
+
+Dijkstra's Shortest Path:
+1. Set distance of all vertices = infinity
+2. Set distance of source = 0
+3. Add source to priority queue
+4. Loop:
+   - Pick vertex u with minimum distance
+   - For each neighbor v of u:
+       - If dist[u] + weight < dist[v]:
+           - Update dist[v]
+           - Add v to priority queue
+5. Print all distances from source
+
+Prim's MST:
+1. Start from vertex 0, mark as visited
+2. Add all its edges to min heap
+3. Loop:
+   - Pick edge with minimum weight from heap
+   - If destination already visited, skip
+   - Mark destination as visited
+   - Add its weight to total cost
+   - Add its edges to heap
+4. Print total MST cost
+
+Kruskal's MST:
+1. Sort all edges by weight
+2. Initialize each vertex as its own parent (Union-Find)
+3. For each edge (u, v, w):
+   - Find parent of u and v
+   - If different (no cycle):
+       - Union them
+       - Add weight to total cost
+4. Print total MST cost
+
+Key viva points:
+
+Selection Sort → O(n²), greedy (always picks minimum)
+Dijkstra → O(E + V log V), greedy (always picks shortest known path)
+Prim's → O(E log V), grows MST one vertex at a time
+Kruskal's → O(E log E), grows MST one edge at a time, uses Union-Find to avoid cycles
+"""
